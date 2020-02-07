@@ -1,0 +1,45 @@
+﻿@model FrontEndPassManager.Models.UserModels
+
+@{
+    ViewData["Title"] = "Inscription";
+}
+
+<div class="row">
+    <div class="offset-md-4 col-md-4">
+        <center><h1>Inscription</h1></center>
+
+        <hr />
+        <form asp-action="Inscription">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <center><label asp-for="User" class="control-label"></label></center>
+                <center><input asp-for="User" class="form-control"  style="text-align:center;"/></center>
+                <span asp-validation-for="User" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Mdp" class="control-label"></label></center>
+                <center><input type="password" asp-for="Mdp" class="form-control" style="text-align:center;" /></center>
+                <span asp-validation-for="Mdp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label id="MdpConf" class="control-label">Confirmation de mot de passe :</label></center>
+                <input type="password" name="MdpConf" class="form-control" style="text-align:center;"/>
+                <span for="MdpConf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Email" class="control-label"></label></center>
+                <center><input asp-for="Email" class="form-control" style="text-align:center;" /></center>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center>
+                    <input type="submit" value="S'inscrire" class="btn btn-primary" />
+                    <a asp-action="Login" class="btn btn-warning">Retour</a>
+                </center>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

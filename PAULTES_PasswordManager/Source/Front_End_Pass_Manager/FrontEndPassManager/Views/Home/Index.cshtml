@@ -1,0 +1,44 @@
+﻿@model IEnumerable<FrontEndPassManager.Models.MdpModels>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<center>
+    <h1>Bienvenue @User.Identity.Name</h1>
+    <br />
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Ajouter un mot de passe</a>
+    </p>
+</center>
+<br />
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th style="text-align:center;">
+                @Html.DisplayNameFor(model => model.ReferenceSite)
+            </th>
+            <th style="text-align:center;">
+                @Html.DisplayNameFor(model => model.Mdp)
+            </th>
+            <th style="text-align:center;"> Action </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="text-align:center;vertical-align:middle;">
+                    @Html.DisplayFor(modelItem => item.ReferenceSite)
+                </td>
+                <td style="text-align:center;vertical-align:middle;">
+                    @Html.DisplayFor(modelItem => item.Mdp)
+                </td>
+                <td style="text-align:center;">
+                    <a href="@Url.Action("Edit", "Home", new { item.Id })" class="btn btn-warning" style="font-weight: bold;">Editer</a>
+                    <a href="@Url.Action("Delete", "Home", new { item.Id })" class="btn btn-danger" style="font-weight: bold;">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

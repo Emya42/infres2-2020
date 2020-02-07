@@ -1,0 +1,32 @@
+﻿@model FrontEndPassManager.Models.MdpModels
+
+@{
+    ViewData["Title"] = "Supprimer";
+}
+<center>
+<h1>Suppression de mot de passe</h1>
+<h3>Etes vous sûre de supprimer ce mot de passe ?</h3></center>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-6" style="text-align:right;">
+            @Html.DisplayNameFor(model => model.ReferenceSite) : 
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.ReferenceSite)
+        </dd>
+        <dt class="col-sm-6" style="text-align:right;">
+            @Html.DisplayNameFor(model => model.Mdp) : 
+        </dt>
+        <dd class="col-sm-6">
+            @Html.DisplayFor(model => model.Mdp)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <center>
+            <input type="submit" value="Supprimer" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-warning">Retour</a>
+        </center>
+    </form>
+</div>

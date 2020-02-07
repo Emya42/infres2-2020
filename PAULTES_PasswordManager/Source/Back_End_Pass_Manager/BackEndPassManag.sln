@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndPassManag", "BackEndPassManag\BackEndPassManag.csproj", "{E9E6FD68-392D-466F-9C60-7E4A5D077D1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9E6FD68-392D-466F-9C60-7E4A5D077D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E6FD68-392D-466F-9C60-7E4A5D077D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E6FD68-392D-466F-9C60-7E4A5D077D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E6FD68-392D-466F-9C60-7E4A5D077D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7537D07B-2D85-41E2-9F16-024C4D739B32}
+	EndGlobalSection
+EndGlobal

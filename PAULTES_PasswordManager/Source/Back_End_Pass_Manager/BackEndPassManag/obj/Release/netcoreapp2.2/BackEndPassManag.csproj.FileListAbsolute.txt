@@ -1,0 +1,16 @@
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\bin\Release\netcoreapp2.2\appsettings.json
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\bin\Release\netcoreapp2.2\BackEndPassManag.deps.json
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\bin\Release\netcoreapp2.2\BackEndPassManag.runtimeconfig.json
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\bin\Release\netcoreapp2.2\BackEndPassManag.runtimeconfig.dev.json
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\bin\Release\netcoreapp2.2\BackEndPassManag.dll
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\bin\Release\netcoreapp2.2\BackEndPassManag.pdb
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\obj\Release\netcoreapp2.2\BackEndPassManag.csprojAssemblyReference.cache
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\obj\Release\netcoreapp2.2\BackEndPassManag.RazorAssemblyInfo.cache
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\obj\Release\netcoreapp2.2\BackEndPassManag.RazorAssemblyInfo.cs
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\obj\Release\netcoreapp2.2\BackEndPassManag.AssemblyInfoInputs.cache
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\obj\Release\netcoreapp2.2\BackEndPassManag.AssemblyInfo.cs
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\obj\Release\netcoreapp2.2\BackEndPassManag.RazorTargetAssemblyInfo.cache
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\obj\Release\netcoreapp2.2\BackEndPassManag.dll
+C:\Users\louis\source\repos\BackEndPassManag\BackEndPassManag\obj\Release\netcoreapp2.2\BackEndPassManag.pdb
